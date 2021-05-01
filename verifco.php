@@ -4,10 +4,10 @@ session_start();
 $mdpCo = "1234";
 $mdpUser = $_POST['mdp'];
 
-if($mdpUser == $mdpCo){
+if($mdpUser == $mdpCo) {
     $_SESSION['co'] = true;
 }
-else{
+else {
     $_SESSION['errorco'] = true;
 }
 

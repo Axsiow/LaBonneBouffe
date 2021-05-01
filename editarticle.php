@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Overlock&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="medias/icon.png" type="image/x-icon">
-    <title>BlogAC - Modifier un article</title>
+    <title>LBB - La Bonne Bouffe - Modifier un article</title>
     <meta name="theme-color" content="#E4F1FF"/>
 </head>
 <?php 
@@ -49,7 +49,7 @@
         </form>
     </section>
     <footer>
-        <p>Fait par <a href="https://www.theomigeat.com/" target="_blank" class="rainbow">Théo Migeat</a>~ pour toute question ou suggestion, n'hésitez pas à me contacter sur <a href="https://twitter.com/STM3900" target="_blank">twitter</a> !</p>
+    <p>Fait par <a href="https://www.axsiow.ovh/" target="_blank" class="rainbow">Axsiow</a> sur un projet orinal de <a href="https://theomigeat.com">Théo Migeat</a> !</p>
     </footer>
 </body>
 

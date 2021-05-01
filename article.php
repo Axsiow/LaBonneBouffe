@@ -43,7 +43,7 @@
     $donnees = $req->fetch();
 
 ?>
-<title>Lazublog - Chapitre <?php echo $idArticle; ?></title>
+<title>LBB - La Bonne Bouffe - Article <?php echo $idArticle; ?></title>
 <body>
     <a class="button-main" href="index.php" ><i class="fas fa-home"></i></a>
     <header class="article-header">
@@ -70,24 +70,24 @@
     <section class="article-buttons">
         <div>
             <?php if($idArticle == 0): ?>
-                <a href="?id=<?php echo $idArticle +1 ?>" class="button next">Chapitre suivant</a>
+                <a href="?id=<?php echo $idArticle +1 ?>" class="button next">Article suivant</a>
             <?php 
                 endif;
                 if($idArticle == $lastArticle[0]):
             ?>
-                <a href="?id=<?php echo $idArticle -1 ?>" class="button back">Chapitre précedent</a>
+                <a href="?id=<?php echo $idArticle -1 ?>" class="button back">Article précedent</a>
             <?php 
                 endif; 
                 if($idArticle > 0 && $idArticle != $lastArticle[0]):
             ?>
-                <a href="?id=<?php echo $idArticle -1 ?>" class="button back">Chapitre précedent</a>
-                <a href="?id=<?php echo $idArticle +1 ?>" class="button next">Chapitre suivant</a>
+                <a href="?id=<?php echo $idArticle -1 ?>" class="button back">Article précedent</a>
+                <a href="?id=<?php echo $idArticle +1 ?>" class="button next">Article suivant</a>
             <?php endif;  ?>
         </div>
     </section>
     <script src="js/main.js"></script>
     <footer>
-        <p>Fait par <a href="https://www.theomigeat.com/" target="_blank" class="rainbow">Théo Migeat</a>~ pour toute question ou suggestion, n'hésitez pas à me contacter sur <a href="https://twitter.com/STM3900" target="_blank">twitter</a> !</p>
+    <p>Fait par <a href="https://www.axsiow.ovh/" target="_blank" class="rainbow">Axsiow</a> sur un projet orinal de <a href="https://theomigeat.com">Théo Migeat</a> !</p>
     </footer>
 </body>
 

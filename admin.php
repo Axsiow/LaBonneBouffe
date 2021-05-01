@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/373a1c097b.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="medias/icon.png" type="image/x-icon">
-    <title>Lazublog - Admin</title>
-    <title>BlogAC - Modifier un article</title>
+    <title>LBB - La Bonne Bouffe - Admin</title>
+    <title>LBB - Modifier un article</title>
     <meta name="theme-color" content="#E4F1FF"/>
 </head>
 <?php 

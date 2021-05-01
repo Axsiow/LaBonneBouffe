@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Overlock&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Lazublog</title>
+    <title>LBB - La Bonne Bouffe</title>
     <link rel="shortcut icon" href="medias/icon.png" type="image/x-icon">
     <meta name="theme-color" content="#E4F1FF"/>
-    <title>BlogAC - Modifier un article</title>
+    <title>LBB - Modifier un article</title>
 </head>
 <?php 
     include 'connectbdd.php';
@@ -17,7 +17,7 @@
 <body>
     <header class="general-header">
         <aside></aside>
-        <h1>Bienvenue sur Lazublog !</h1>
+        <h1>Bienvenue sur La Bonne Bouffe !</h1>
     </header>
     <div class="general-content">
         <aside></aside>

@@ -616,7 +616,8 @@ p {
     opacity: 1;
 
     transition: 0.5s;
-    background: #8ccf89;
+    /* background: #8ccf89; */
+    background: #1e5f74;
     position: absolute;
 
     display: flex;
@@ -891,7 +892,7 @@ p {
     align-items: center;
     align-content: center;
 
-    background: #9ad3e4;
+    background: #1e5f74;
 }
 
 .admin-phone {
@@ -976,7 +977,7 @@ p {
     height: 65px;
     width: 65px;
 
-    background: #776c63;
+    background: #1d2d50;
     border-radius: 20px;
 
     display: flex;

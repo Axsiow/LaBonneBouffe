@@ -22,8 +22,7 @@
     <div class="general-content">
         <aside></aside>
         <section class="desc">
-        <p>Vous aimez les petites histoires ? Je vous propose dès la sortie d'Animal Crossing : New Horizon, de vivre
-            mon aventure avec moi, à travers des petites articles que je posterais !</p>
+        <p>Vous aimez la bonne bouffe ? Et bien vous êtes à l'endroit parfait, parcque ici on parle de bouffe, et pas n'importe laquelle, de la bonne !</p>
         </section>
         <div class="timeline">
         <?php 
@@ -32,7 +31,7 @@
             <div class="container left">
                 <div class="content" onclick="document.location.href='article.php?id=<?php echo $donnees['id'] ?>'">
                     <aside style="background-image: url('medias/mainimg/<?php echo $donnees['image'] ?>');"></aside>
-                    <h2>Chapitre <?php echo $donnees['id'] ?></h2>
+                    <h2>Bonne Bouffe n°<?php echo $donnees['id'] ?></h2>
                     <p><?php echo $donnees['titre'] ?></p>
                 </div>
             </div>
@@ -41,7 +40,7 @@
     </div>
     <script src="js/main.js"></script>
     <footer>
-        <p>Fait par <a href="https://www.theomigeat.com/" target="_blank" class="rainbow">Théo Migeat</a>~ pour toute question ou suggestion, n'hésitez pas à me contacter sur <a href="https://twitter.com/STM3900" target="_blank">twitter</a> !</p>
+        <p>Fait par <a href="https://www.axsiow.ovh/" target="_blank" class="rainbow">Axsiow</a> sur un projet orinal de <a href="https://theomigeat.com">Théo Migeat</a> !</p>
     </footer>
 </body>
 </html>

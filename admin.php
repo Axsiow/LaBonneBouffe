@@ -65,15 +65,15 @@
         <div>
             <i class="fas fa-times close-icon"></i>
             <form action="addarticle.php" method="POST" enctype="multipart/form-data">
-                <input type="text" name="titre" placeholder="Titre" />
-                <textarea name="commentaire" rows="10" cols="50" placeholder="Racontez votre journée ici !"></textarea>
+                <input type="text" name="titre" placeholder="Titre de l'article" />
+                <textarea name="commentaire" rows="10" cols="50" placeholder="Ecrivez l'article ici !"></textarea>
                     <input type="hidden" name="MAX_FILE_SIZE2" value="20097152">
                     <label for="file-upload2" class="custom-file-upload">
                         <i class="fa fa-cloud-upload"></i> Image dans l'article
                     </label>
                     <input type="file" name="photo2" id="file-upload2">
-                    <input type="text" name="legende" id="legende" placeholder="légende de l'image">
-                    <textarea name="commentaire2" rows="10" cols="50" placeholder="Racontez la suite de votre journée ici !"></textarea>
+                    <input type="text" name="legende" id="legende" placeholder="Légende de l'image">
+                    <textarea name="commentaire2" rows="10" cols="50" placeholder="Ecrivez la suite de l'article ici !"></textarea>
                 <input type="hidden" name="MAX_FILE_SIZE" value="20097152">
                 <label for="file-upload" class="custom-file-upload">
                     <i class="fa fa-cloud-upload"></i> Image principale

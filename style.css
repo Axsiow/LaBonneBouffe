@@ -266,11 +266,15 @@ p {
     background: #1e5f74;
     border-radius: 20% 10%;
     color: #fcdab7;
+    margin: 5px;
 }
 
 .content p {
     font-size: 25px;
     color: #1e5f74;
+    background: #fcdab7;
+    border-radius: 20% 10%;
+    margin: 5px;
 }
 
 .button-main {
@@ -1129,8 +1133,8 @@ footer{
     background: white;
 
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
 

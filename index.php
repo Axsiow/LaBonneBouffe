@@ -41,6 +41,7 @@
     <script src="js/main.js"></script>
     <footer>
         <p>Fait par <a href="https://www.axsiow.ovh/" target="_blank" class="rainbow">Axsiow</a> sur un projet orinal de <a href="https://theomigeat.com">Théo Migeat</a> !</p>
+        <p><a style="color:white" href="admin.php">admin</a></p>
 		<p>Réaliser à Grenoble 🗻 France. Avec ❤️️</p>
     </footer>
 </body>

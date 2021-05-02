@@ -76,7 +76,7 @@
                     <textarea name="commentaire2" rows="10" cols="50" placeholder="Ecrivez la suite de l'article ici !"></textarea>
                 <input type="hidden" name="MAX_FILE_SIZE" value="20097152">
                 <label for="file-upload" class="custom-file-upload">
-                    <i class="fa fa-cloud-upload"></i> Image principale
+                    <i class="fa fa-cloud-upload"></i> Image de preview de l'article
                 </label>
                 <input type="file" name="photo" id="file-upload">
                 <input type="submit" name="ok" value="Envoyer" class="button-addarticle">

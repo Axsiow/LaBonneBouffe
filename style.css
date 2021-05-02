@@ -547,8 +547,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(137, 202, 255, 0.8);
-    border: solid 2px #1e5f74;
+    background-color: rgba(30, 95, 116, 0.8);
+    border: solid 2px #1d2d50;
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -563,7 +563,7 @@ p {
 .button:hover {
     color: white;
     cursor: pointer;
-    background-color: #1e5f74;
+    background-color: #1d2d50;
 }
 
 /*special form*/
